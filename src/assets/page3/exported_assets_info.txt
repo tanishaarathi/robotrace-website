@@ -1,0 +1,24 @@
+ASSET NAME, COORDINATE, WIDTH, HEIGHT
+Leaderboard_Mockup@: centered at (754, 132), width: 606px, height: 162px. 
+View_Leaderboards_DYNAMIC_TEXT@: centered at (159, 159), width: 180px, height: 12px. 
+Submit button@: centered at (159, 159.5), width: 216px, height: 41px. 
+Leaderboard_Text_DYNAMIC_TEXT@: centered at (211.5, 107), width: 317px, height: 12px. 
+Leaderboard_Title_DYNAMIC_TEXT@: centered at (143.5, 78.5), width: 177px, height: 19px. 
+Post Art@: centered at (191, 494.5), width: 324px, height: 169px. 
+POST_Filler_DYNAMIC_TEXT@: centered at (183, 690.5), width: 272px, height: 41px. 
+POST_Section_DYNAMIC_TEXT@: centered at (199.5, 620.5), width: 69px, height: 9px. 
+POST_Date_DYNAMIC_TEXT@: centered at (97.5, 621.5), width: 109px, height: 11px. 
+POST_Title_DYNAMIC_TEXT@: centered at (130, 646), width: 162px, height: 14px. 
+Post2 Art@: centered at (549, 494.5), width: 324px, height: 169px. 
+POST2_Filler_DYNAMIC_TEXT@: centered at (548.5, 689), width: 293px, height: 38px. 
+POST2_Section_DYNAMIC_TEXT@: centered at (541, 620.5), width: 48px, height: 9px. 
+POST2_Date_DYNAMIC_TEXT@: centered at (452.5, 621), width: 109px, height: 12px. 
+POST2_Title_DYNAMIC_TEXT@: centered at (526, 645), width: 244px, height: 16px. 
+POST3_Filler_DYNAMIC_TEXT@: centered at (901.5, 690), width: 287px, height: 40px. 
+POST3_Date_DYNAMIC_TEXT@: centered at (810, 621), width: 112px, height: 12px. 
+POST3_Section_DYNAMIC_TEXT@: centered at (913.5, 620), width: 73px, height: 10px. 
+POST3_Title_DYNAMIC_TEXT@: centered at (874, 647.5), width: 228px, height: 19px. 
+Post3 Art@: centered at (902, 494.5), width: 324px, height: 169px. 
+NEWS and UPDATES_DYNAMIC_TEXT@: centered at (564.5, 373), width: 239px, height: 18px. 
+Diagonal Seperator@: centered at (565, 295), width: 826px, height: 96px. 
+000000_COLORFILL@: centered at (545, 421), width: 1090px, height: 842px. 

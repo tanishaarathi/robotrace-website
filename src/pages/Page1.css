@@ -1,0 +1,128 @@
+.page1 {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.ed-logo {
+    position: absolute;
+    left: 4.87%;
+    top: 1.76%;
+    width: auto;
+    height: 6.48%;
+}
+
+.ed-name {
+    position: absolute;
+    left: 3.49%;
+    top: 9.07%;
+    width: auto;
+    height: 1.39%;
+}
+
+.facebook {
+    position: absolute;
+    left: 73.39%;
+    top: 3.15%;
+    width: auto;
+    height: 5.46%;
+}
+.twitter {
+    position: absolute;
+    left: 78%;
+    top: 3.15%;
+    width: auto;
+    height: 5.46%;
+}
+.youtube {
+    position: absolute;
+    left: 82.67%;
+    top: 3.15%;
+    width: auto;
+    height: 5.46%;
+}
+.instagram {
+    position: absolute;
+    left: 87.35%;
+    top: 3.15%;
+    width: auto;
+    height: 5.46%;
+}
+.discord {
+    position: absolute;
+    left: 91.90%;
+    top: 3.15%;
+    width: auto;
+    height: 5.46%;
+} 
+
+.rr-icon {
+    position: absolute;
+    left: 18.64%;
+    top: 4.54%;
+    width: auto;
+    height: 17.96%;
+    z-index: 1;
+}
+
+.wrapper {
+    position: relative;
+    flex-direction: column;
+    top: 11%;
+    /* background-color: black; */
+    width: 100%;
+    height: 90%;
+    background-image: url('../assets/page1/MoviePlacement@.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.animation {
+    /* position: absolute; */
+    width: auto;
+    height: 63.61%;
+    top: 10.83%;
+    z-index: 0;
+}
+
+.rr-title {
+    /* position: absolute; */
+    top: 11.39%;
+    width: 61.33%;
+    height: auto;
+    z-index: 1;
+}
+
+.tour-extreme {
+    /* position: absolute; */
+    top: 41.39%;
+    width: 29.58%;
+    height: auto;
+    z-index: 1;
+}
+
+.bottom-section {
+    position: relative;
+    background-color: black;
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+}
+
+.dynamic-text {
+    position: relative;
+    margin-top: 3%;
+    width: 43.68%;
+    height: auto;
+}
+
+.appstore,
+.playstore {
+    width: auto;
+    height: 10%;
+    margin: 15% 0;
+}
+
+
+

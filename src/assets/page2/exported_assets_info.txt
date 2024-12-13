@@ -1,0 +1,7 @@
+ASSET NAME, COORDINATE, WIDTH, HEIGHT
+Page2_Movie_Top@: centered at (545, 421), width: 1090px, height: 842px. 
+Page2_Movie_Middle@: centered at (813, 417), width: 538px, height: 250px. 
+Page2_Movie_Bottom@: centered at (284.5, 701.5), width: 539px, height: 249px. 
+Page2_TextBlock_Middle@: centered at (266.5, 387), width: 443px, height: 194px. 
+Page2_TextBlock_Upper@: centered at (825, 99.5), width: 460px, height: 205px. 
+Page2_TextBlock_Lower@: centered at (824, 687), width: 458px, height: 206px. 

@@ -1,0 +1,20 @@
+.page2 {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    margin-top: 10%;
+}
+
+.headings {
+    font-family: 'Mont-Regular';
+    font-size: 2.5em;
+    color: #e8e8e8;
+}
+
+.content {
+    font-family: 'Mont-Regular';
+    font-size: 1.3em;
+    color: #e8e8e8;
+}
+
