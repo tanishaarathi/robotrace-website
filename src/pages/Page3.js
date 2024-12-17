@@ -45,7 +45,7 @@ const Page3 = () => {
         <img
                 src={Separator}
                 alt='Separator image'
-                className='p-3 mx-auto d-block'
+                className='py-3 mx-auto d-block'
             />
         <h2 className='news-updates'>NEWS and UPDATES</h2>
         <div className='row g-0 p-3'>

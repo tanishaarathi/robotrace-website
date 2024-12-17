@@ -1,0 +1,229 @@
+.page4 {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.topSection {
+    
+    position: relative;
+    padding: 3rem;
+}
+
+.row-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.garland1,
+.garland2 {
+    width: auto;
+    height: 29.65%; 
+    position: relative;
+    top: 20%;
+}
+
+.testimony1,
+.testimony2 {
+    position: absolute; 
+    width: 100%; 
+    top: 18%; 
+    color: #e8e8e8;
+    font-family: 'Mont-Regular';
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.rank-icon {
+    width: 10%; 
+    height: auto;
+}
+
+.rocket-divider {
+    width: 47.48%; 
+    height: auto;
+    margin-top: 1rem;
+}
+
+.author {
+    font-size: 0.6em;
+}
+
+.midSection {
+    background-color: #3c3c45;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    padding-bottom: 5rem;
+}
+
+.text-box {
+    position: relative;
+    left: 21.96%;
+    top: 63.50%;
+    width: 58.28%;
+    height: auto;
+    margin-top: 3%;
+}
+
+
+.stay-connected {
+    position: absolute;
+    left: 30%;
+    top: 16%;
+    font-family: 'Mont-SemiBold';
+    color: #1CC0DE;
+    text-shadow: -0.3vw 0.15vw 0.1vw #3F1B45 ;
+}
+
+.p4-content {
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    width: 40%;
+    font-family: 'Mont-Regular';
+    color: #1CC0DE;
+}
+
+.image-button {
+    position: absolute; 
+    left: 56%;
+    top: 57%;
+    text-align: start;
+}
+
+.submit-button {
+    width: auto; 
+    height: 30%;
+}
+
+.button-text {
+    position: absolute; 
+    top: 50%; 
+    left: 40%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 1.5rem; 
+    font-family: 'Mont-SemiBold';
+    pointer-events: none; 
+    text-shadow: -0.1vw 0.05vw 0.1vw #d8d8d8;
+}
+
+.image-button:hover .submit-button {
+    filter: brightness(0.8); 
+}
+
+.email-container {
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    width: 50%;
+}
+
+.email-label {
+    color: #e8e8e8; 
+    font-family: 'Mont-Regular';
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-right: 2%;
+}
+
+.email-input {
+    background: transparent; 
+    border: none; 
+    border-bottom: 2px solid #e8e8e8; 
+    color: #e8e8e8; 
+    font-size: 1rem; 
+    font-family: Arial, sans-serif;
+    width: 63%; 
+    outline: none; 
+    padding: 5px 0; 
+}
+
+.email-input::placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.email-input:focus {
+    border-bottom: 2px solid #1CC0DE; 
+}
+
+.robot {
+    position: absolute;
+    left: 3%;
+    top: 52%;
+    width: 20%;
+    height: auto;
+}
+
+.left-corner-art {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    height: auto;
+}
+
+.right-corner-art {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 11%;
+    height: auto;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    padding-bottom: 14%;
+}
+
+.edlogo {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    width: 5%;
+    height: auto;
+}
+
+.game-logo {
+    position: absolute;
+    left: 21%;
+    top: 20%;
+}
+
+.app-store {
+    position: absolute;
+    left: 36.23%;
+    top: 20%;
+}
+
+.play-store {
+    position: absolute;
+    left: 56.08%;
+    top: 20%;
+}
+
+.esrb-rating {
+    position: absolute;
+    left: 81.98%;
+    top: 20%;
+}
+
+.footer-content {
+    position: absolute;
+    font-family: 'Mont-Regular';
+    color: #1CC0DE;
+    font-size: 0.85em;
+    left: 50%;
+    transform: translateX(-50%); 
+    text-align: center;
+    width: 100%;
+    top: 80%;
+}
+

@@ -25,54 +25,25 @@ const Page1 = () => {
   return (
     <div className="container-fluid g-0 page1">
       <div className='top-bar g-0'>
-        <img
-            src={EDlogo}
-            alt='Easley-Dunn logo'
-            className='ed-logo'
-        />
-        <img
-            src={EDname}
-            alt='Easley-Dunn'
-            className='ed-name'
-        />
-        <img
-            src={FacebookButton}
-            alt='Facebook button'
-            className='facebook'
-        />
-        <img
-            src={TwitterButton}
-            alt='Twitter Button'
-            className='twitter'
-        />
-        <img
-            src={YoutubeButton}
-            alt='Youtube Button'
-            className='youtube'
-        />
-        <img
-            src={InstagramButton}
-            alt='Instagram Button'
-            className='instagram'
-        />
-        <img
-            src={DiscordButton}
-            alt='Discord Button'
-            className='discord'
-        />
+        <img src={EDlogo} alt='Easley-Dunn logo' className='ed-logo'/>
+        <img src={EDname} alt='Easley-Dunn' className='ed-name'/>
+        
+        <a href="https://www.facebook.com/robotrace/" target="_blank" rel="noopener noreferrer">
+            <img src={FacebookButton} alt='Facebook button' className='facebook'/></a>
+        <a href="https://x.com/EasleyDunnGames" target="_blank" rel="noopener noreferrer">
+            <img src={TwitterButton} alt='Twitter Button' className='twitter'/></a>
+        <a href="https://www.youtube.com/@easleydunn" target="_blank" rel="noopener noreferrer">
+            <img src={YoutubeButton} alt='Youtube Button' className='youtube'/></a>
+        <a href="http://easleydunnproductions.com/temp_index.html" target="_blank" rel="noopener noreferrer">
+            <img src={InstagramButton} alt='Instagram Button' className='instagram' /></a>
+        <a href="http://easleydunnproductions.com/temp_index.html" target="_blank" rel="noopener noreferrer">
+            <img src={DiscordButton} alt='Discord Button' className='discord' /></a>
         
       </div>
-      <img
-            src={RRicon}
-            alt='Robot Race Icon'
-            className='img-fluid rr-icon'
-        />
+      <img src={RRicon} alt='Robot Race Icon' className='img-fluid rr-icon' />
+      
       <div className='wrapper d-flex justify-content-center align-items-center g-0'>
-        {/* <img
-            src={Movie}
-            alt='Animation img'
-            className='img-fluid animation'
-        /> */}
+        
         <img
             src={RRtitle}
             alt='Robot Race Title'
@@ -86,11 +57,7 @@ const Page1 = () => {
         
       </div>
       <div className='bottom-section justify-content-center align-items-center g-0'>
-        <img
-            src={DynamicText}
-            alt='Join in the competition now'
-            className='img-fluid dynamic-text'
-        />
+        <p className='page1-dynamic-text'>Join in The Competition Now!</p>
         <div className='row d-flex justify-content-center align-items-center'>
         <div className="col-auto d-flex justify-content-center align-items-center">
             <a

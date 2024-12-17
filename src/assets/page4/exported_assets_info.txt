@@ -1,0 +1,22 @@
+ASSET NAME, COORDINATE, WIDTH, HEIGHT
+Submit_DYNAMIC TEXT@: centered at (684.5, 528), width: 83px, height: 18px. 
+game icon COPY@: centered at (281, 751), width: 68px, height: 68px. 
+Webpage Publication PLACEHOLDER@: centered at (517.5, 818.5), width: 759px, height: 13px. 
+ESRB rating@: centered at (963.5, 749.5), width: 135px, height: 79px. 
+Android Download Button COPY@: centered at (704.5, 743.5), width: 183px, height: 61px. 
+iOS download button COPY@: centered at (488, 743.5), width: 184px, height: 61px. 
+WIRED Testimonial DYNAMIC TEXT@: centered at (251, 127.5), width: 186px, height: 75px. 
+Garlands@: centered at (255.5, 128), width: 291px, height: 134px. 
+Garlands_Right_COPY@: centered at (850.5, 128), width: 291px, height: 134px. 
+Indie Testimonial DYNAMIC TEXT@: centered at (856.5, 131), width: 133px, height: 100px. 
+Page4_Company Logo@: centered at (76, 758), width: 80px, height: 96px. 
+Email DYNAMIC TEXT@: centered at (531, 471.5), width: 378px, height: 21px. 
+Signup  DYNAMIC TEXT@: centered at (550.5, 379.5), width: 429px, height: 61px. 
+StayCOnnected  DYNAMIC TEXT@: centered at (450, 327.5), width: 242px, height: 27px. 
+Submit_BTN@: centered at (715.5, 530.5), width: 247px, height: 75px. 
+Word_Bubble_Parts@: centered at (558.5, 443), width: 637px, height: 312px. 
+Page4_iRobot@: centered at (146, 578.5), width: 260px, height: 239px. 
+rocket icon divider@: centered at (539.5, 235), width: 519px, height: 56px. 
+icon_rank_gold@: centered at (551.5, 108), width: 139px, height: 128px. 
+3c3c45 COLORFILL@: centered at (543.5, 497), width: 1093px, height: 452px. 
+000000 COLORFILL@: centered at (545, 421), width: 1090px, height: 842px. 

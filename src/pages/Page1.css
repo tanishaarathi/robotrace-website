@@ -27,6 +27,9 @@
     width: auto;
     height: 5.46%;
 }
+.facebook:hover { transform: scale(1.25); }
+.facebook:active { filter: brightness(1.6); }
+
 .twitter {
     position: absolute;
     left: 78%;
@@ -34,6 +37,9 @@
     width: auto;
     height: 5.46%;
 }
+.twitter:hover { transform: scale(1.25); }
+.twitter:active { filter: brightness(1.6); }
+
 .youtube {
     position: absolute;
     left: 82.67%;
@@ -41,6 +47,9 @@
     width: auto;
     height: 5.46%;
 }
+.youtube:hover { transform: scale(1.25); }
+.youtube:active { filter: brightness(1.6); }
+
 .instagram {
     position: absolute;
     left: 87.35%;
@@ -48,6 +57,9 @@
     width: auto;
     height: 5.46%;
 }
+.instagram:hover { transform: scale(1.25); }
+.instagram:active { filter: brightness(1.6); }
+
 .discord {
     position: absolute;
     left: 91.90%;
@@ -55,6 +67,8 @@
     width: auto;
     height: 5.46%;
 } 
+.discord:hover { transform: scale(1.25); }
+.discord:active { filter: brightness(1.6); }
 
 .rr-icon {
     position: absolute;
@@ -108,20 +122,31 @@
     display: flex; /* Enables Flexbox */
     flex-direction: column; /* Stack items vertically */
     align-items: center;
+    height: 30%;
 }
 
-.dynamic-text {
-    position: relative;
-    margin-top: 3%;
-    width: 43.68%;
+.page1-dynamic-text {
+    position: absolute;
+    top: 10%;
+    font-family: 'Mont-SemiBold';
+    font-size: 2.5em;
+    color: #e8e8e8;
+}
+
+.appstore {
+    position: absolute;
+    left: 31%;
+    top: 47%;
+    width: 16%;
     height: auto;
 }
 
-.appstore,
 .playstore {
-    width: auto;
-    height: 10%;
-    margin: 15% 0;
+    position: absolute;
+    left: 51%;
+    top: 47%;
+    width: 16%;
+    height: auto;
 }
 
 
