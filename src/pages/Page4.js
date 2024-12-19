@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Page4.css';
 
-// Page2
+// Page4
 import Garlands from '../assets/page4/Garlands@.png'
 import RankIcon from '../assets/page4/icon_rank_gold@.png'
 import RocketDivider from '../assets/page4/rocket-icon-divider@.png'
@@ -45,59 +45,37 @@ const Page4 = () => {
         <p className="p4-content">
             Sign up for our mailing list to hear about the upcoming Multiplayer release this December and receive special passwords for secret tracks!
         </p>
-        <div class="image-button">
-          <img src={SubmitButton} alt="Submit Button" class="submit-button" />
-          <span class="button-text">SUBMIT</span>
+        
+        <div class="name-container">
+          <label for="name" class="name-label">NAME</label>
+          <input type="name" id="name" class="name-input" placeholder="" />
         </div>
         <div class="email-container">
           <label for="email" class="email-label">E-MAIL</label>
           <input type="email" id="email" class="email-input" placeholder="" />
         </div>
-        <img
-            src={Robot}
-            alt='Robot'
-            className='robot'
-        />
-        <img
-          src={LeftArt}
-          alt='Left Corner art'
-          className='left-corner-art'
-        />
-        <img
-          src={RightArt}
-          alt='Right Corner art'
-          className='right-corner-art'
-        />
+        <div class="image-button">
+          <img src={SubmitButton} alt="Submit Button" class="submit-button" />
+          <span class="button-text">SUBMIT</span>
+        </div>
+
+        <img src={Robot} alt='Robot' className='robot'/>
+        <img src={LeftArt} alt='Left Corner art' className='left-corner-art' />
+        <img src={RightArt} alt='Right Corner art' className='right-corner-art' />
 
       </div>
 
       <div className="footer">
-        <img
-          src={Edlogo}
-          alt='Easley-Dunn logo'
-          className='edlogo'
-        />
-        <img
-          src={GameLogo}
-          alt='Easley-Dunn logo'
-          className='game-logo'
-        />
-        <img
-          src={AppStore}
-          alt='Easley-Dunn logo'
-          className='app-store'
-        />
-        <img
-          src={PlayStore}
-          alt='Easley-Dunn logo'
-          className='play-store'
-        />
-        <img
-          src={ESRBrating}
-          alt='Easley-Dunn logo'
-          className='esrb-rating'
-        />
-        <p className='footer-content'>All Rights Reserved 2024 | Easley-Dunn Games |<span style={{color: '#e8e8e8'}}> Contact Us</span> | <span style={{color: '#e8e8e8'}}>Privacy Policy</span> | Website by Phred | Website Design by SpiderHandz</p>
+        <img src={Edlogo} alt='Easley-Dunn logo' className='edlogo' />
+        <img src={GameLogo} alt='Easley-Dunn logo' className='game-logo' />
+        <img src={AppStore} alt='Easley-Dunn logo' className='app-store' />
+        <img src={PlayStore} alt='Easley-Dunn logo' className='play-store' />
+        <img src={ESRBrating} alt='Easley-Dunn logo' className='esrb-rating' />
+        <p className='footer-content'>
+          All Rights Reserved 2024 | Easley-Dunn Games |
+          <a href='http://easleydunnproductions.com/ContactUs.html' className='contact-link'> Contact Us</a> | 
+          <a href='https://easleydunnproductions.com/PrivacyPolicy.php' className='privacy-link'> Privacy Policy </a>
+           | Website by Phred | Website Design by SpiderHandz</p>
       </div>
     </div>
   );

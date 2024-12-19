@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Page3.css';
 
-// Page2
+// Page3
 import LBtitle from '../assets/page3/Leaderboard_Title_DYNAMIC_TEXT@.png'
 import LBtext from '../assets/page3/Leaderboard_Text_DYNAMIC_TEXT@.png'
 import ViewLB from '../assets/page3/View_Leaderboards_DYNAMIC_TEXT@.png'

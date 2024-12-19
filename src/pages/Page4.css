@@ -83,15 +83,16 @@
     position: absolute;
     left: 30%;
     top: 25%;
-    width: 40%;
+    width: 42%;
     font-family: 'Mont-Regular';
     color: #1CC0DE;
+    font-size: 0.9rem;
 }
 
 .image-button {
     position: absolute; 
     left: 56%;
-    top: 57%;
+    top: 62%;
     text-align: start;
 }
 
@@ -116,10 +117,40 @@
     filter: brightness(0.8); 
 }
 
+.name-container {
+    position: absolute;
+    left: 30%;
+    top: 38%;
+    width: 50%;
+}
+
+.name-label {
+    color: #e8e8e8; 
+    font-family: 'Mont-Regular';
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-right: 3.5%;
+}
+
+.name-input {
+    background: transparent; 
+    border: none; 
+    border-bottom: 2px solid #e8e8e8; 
+    color: #e8e8e8; 
+    font-size: 1rem; 
+    font-family: Arial, sans-serif;
+    width: 63%; 
+    outline: none; 
+    padding: 5px 0; 
+}
+
+.name-input::placeholder { color: rgba(255, 255, 255, 0.5); }
+.name-input:focus { border-bottom: 2px solid #1CC0DE; }
+
 .email-container {
     position: absolute;
     left: 30%;
-    top: 45%;
+    top: 50%;
     width: 50%;
 }
 
@@ -226,4 +257,13 @@
     width: 100%;
     top: 80%;
 }
+
+.contact-link,
+.privacy-link {
+    color: #e8e8e8;
+    text-decoration: none;
+}
+.contact-link:hover { color: #1CC0DE; }
+.privacy-link:hover { color: #1CC0DE; }
+
 
