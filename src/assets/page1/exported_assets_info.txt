@@ -1,0 +1,22 @@
+ASSET NAME, COORDINATE, WIDTH, HEIGHT
+Discord_normal@: centered at (1424, 58), width: 58px, height: 58px. 
+Instagram_normal@: centered at (1355, 62.5), width: 58px, height: 59px. 
+Youtube_normal@: centered at (1283.5, 63.5), width: 57px, height: 59px. 
+X_normal@: centered at (1212.5, 63.5), width: 57px, height: 59px. 
+Facebook_normal@: centered at (1142.5, 63.5), width: 57px, height: 59px. 
+Discord_pressed@: centered at (1424, 59.5), width: 56px, height: 55px. 
+Instagram_pressed@: centered at (1355.5, 62.5), width: 55px, height: 55px. 
+Youtube_pressed@: centered at (1283, 63.5), width: 54px, height: 55px. 
+X_pressed@: centered at (1212, 63.5), width: 54px, height: 55px. 
+Facebook_pressed@: centered at (1142, 63.5), width: 54px, height: 55px. 
+Robot Race title@: centered at (810.5, 317.5), width: 931px, height: 389px. 
+tour extreme@: centered at (793.5, 530), width: 449px, height: 166px. 
+App Store Button@: centered at (677, 816.5), width: 200px, height: 67px. 
+Google Play Button@: centered at (884, 816.5), width: 200px, height: 67px. 
+Page1_DYNAMIC_TEXT@: centered at (741.5, 746.5), width: 663px, height: 43px. 
+ED logo@: centered at (100.5, 54), width: 53px, height: 70px. 
+Easley-Dunn@: centered at (101, 105.5), width: 96px, height: 15px. 
+RobotRace_icon@: centered at (379.5, 146), width: 193px, height: 194px. 
+Page1_UpperFill@: centered at (737.5, 58.5), width: 1475px, height: 117px. 
+MoviePlacement@: centered at (738.5, 341.5), width: 1477px, height: 687px. 
+000000_COLORFILL@: centered at (759, 540), width: 1518px, height: 1080px. 
