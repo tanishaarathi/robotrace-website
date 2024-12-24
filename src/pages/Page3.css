@@ -88,3 +88,25 @@
     color: #6214C5;
     font-family: 'Mont-SemiBold';
   }
+
+/* .post1 {
+  animation: brightnessAnimation 2s infinite alternate;
+  }
+
+  @keyframes brightnessAnimation {
+    0% { filter: brightness(1); }
+    50% { filter: brightness(1.5) }
+    100% { filter: brightness(2); }
+  } */
+
+/* .post2 {
+  animation: turnAnimation 3s infinite alternate;
+  }
+
+  @keyframes turnAnimation {
+    50% {
+      transform: skew(3deg);
+    }
+    100% { transform: skew(-3deg); }
+  } */
+  
