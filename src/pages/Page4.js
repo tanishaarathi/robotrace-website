@@ -110,6 +110,7 @@ const Page4 = () => {
           </div>
         </div>
         <div class="image-button" onClick={handleSubmit}>
+
           <img src={SubmitButton} alt="Submit Button" class="submit-button" />
           <span class="button-text">SUBMIT</span>
         </div>

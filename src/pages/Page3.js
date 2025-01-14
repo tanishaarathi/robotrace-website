@@ -20,11 +20,7 @@ const Page3 = () => {
     <div className="container-fluid g-0 page3">
         <div className='row g-0'>
             <div className='col-5 p-5 g-0'>
-                <img
-                    src={LBtitle}
-                    alt='Leaderboard Title'
-                    className='lb-title'
-                />
+                <img src={LBtitle} alt='Leaderboard Title' className='lb-title' />
                 <img
                     src={LBtext}
                     alt='Leaderboard Text'
@@ -52,19 +48,19 @@ const Page3 = () => {
             <div className='col-4 d-flex justify-content-center align-items-center p-3'>
                 <img
                     src={UpdateImg1}
-                    className='w-100'
+                    className='w-100 post1'
                 />
             </div>
             <div className='col-4 d-flex justify-content-center align-items-center p-3'>
                 <img
                     src={UpdateImg2}
-                    className='w-100'
+                    className='w-100 post2 glass glass--1'
                 />
             </div>
             <div className='col-4 d-flex justify-content-center align-items-center p-3'>
                 <img
                     src={UpdateImg3}
-                    className='w-100'
+                    className='w-100 post3'
                 />
             </div>
         </div>

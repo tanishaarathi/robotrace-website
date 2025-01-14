@@ -8,15 +8,19 @@
 
 .headings {
     font-family: 'Mont-Regular';
-    font-size: 2.5em;
+    font-size: 2.4rem;
     color: #e8e8e8;
     line-height: 1.2;
 }
 
 .content {
     font-family: 'Mont-Regular';
-    font-size: 1.1em;
+    font-size: calc(1vh + 0.7rem);
+    white-space: nowrap;
     color: #e8e8e8;
     line-height: 2;
 }
 
+.movie {
+    transition: 10s;
+}

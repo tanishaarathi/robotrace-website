@@ -14,7 +14,7 @@ import InstagramButton from '../assets/page1/Instagram_normal@.png'
 import YoutubeButton from '../assets/page1/Youtube_normal@.png'
 import EDlogo from '../assets/page1/ED-logo@.png'
 import EDname from '../assets/page1/Easley-Dunn@.png'
-import Movie from '../assets/page1/MoviePlacement@.png'
+import Movie from '../assets/page1/MoviePlacement.mp4'
 import DynamicText from '../assets/page1/Page1_DYNAMIC_TEXT@.png'
 import RRtitle from '../assets/page1/Robot-Race-title@.png'
 import RRicon from '../assets/page1/RobotRace_icon@.png'
@@ -43,7 +43,13 @@ const Page1 = () => {
       <img src={RRicon} alt='Robot Race Icon' className='img-fluid rr-icon' />
       
       <div className='wrapper d-flex justify-content-center align-items-center g-0'>
-        
+        <video
+            src={Movie}
+            autoPlay
+            loop
+            muted
+            className="background-video"
+        ></video>
         <img
             src={RRtitle}
             alt='Robot Race Title'
