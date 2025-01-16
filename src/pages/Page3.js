@@ -19,13 +19,9 @@ const Page3 = () => {
   return (
     <div className="container-fluid g-0 page3">
         <div className='row g-0'>
-            <div className='col-5 p-5 g-0'>
-                <img src={LBtitle} alt='Leaderboard Title' className='lb-title' />
-                <img
-                    src={LBtext}
-                    alt='Leaderboard Text'
-                    className='lb-text'
-                />
+            <div className='col-5 p-5 g-0 align-items-start'>
+                <p className='lb-title'>Leaderboard</p>
+                <p className='lb-text'>It's a race to the end, but which one will be the hero?</p>
                 <div class="button-container">
                     <button class="custom-button">View All Leaderboards</button>
                 </div>
@@ -41,9 +37,9 @@ const Page3 = () => {
         <img
                 src={Separator}
                 alt='Separator image'
-                className='py-3 mx-auto d-block'
+                className='separator'
             />
-        <h2 className='news-updates'>NEWS and UPDATES</h2>
+        <p className='news-updates'>NEWS and UPDATES</p>
         <div className='row g-0 p-3'>
             <div className='col-4 d-flex justify-content-center align-items-center p-3'>
                 <img
