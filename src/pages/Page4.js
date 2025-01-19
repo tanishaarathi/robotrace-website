@@ -70,10 +70,10 @@ const Page4 = () => {
           <img src={Edlogo} alt='Easley-Dunn logo' className='edlogo' />
         </a>
         <img src={GameLogo} alt='Easley-Dunn logo' className='game-logo' />
-        <a href="https://apps.apple.com/ge/app/spurpunk-td/id1487386202#?platform=iphone" target="_blank" rel="noopener noreferrer">
+        <a href="https://apps.apple.com/ge/app/robot-race/id539184198#?platform=iphone" target="_blank" rel="noopener noreferrer">
           <img src={AppStore} alt='Easley-Dunn logo' className='app-store' />
         </a>
-        <a href="https://play.google.com/store/apps/details?id=com.easleydunnproductions.spurpunk&hl=en_US&gl=US" target="_blank" rel="noopener noreferrer" >
+        <a href="https://play.google.com/store/apps/details?id=com.easleydunnproductions.robotrace&hl=en_US&gl=US" target="_blank" rel="noopener noreferrer" >
           <img src={PlayStore} alt='Easley-Dunn logo' className='play-store' />
         </a>
         <img src={ESRBrating} alt='Easley-Dunn logo' className='esrb-rating' />

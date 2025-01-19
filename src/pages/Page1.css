@@ -111,16 +111,16 @@
 }
 
 .rr-title {
-    /* position: absolute; */
-    top: 11.39%;
-    width: 61.33%;
+    position: absolute;
+    top: 5.39%;
+    width: 55.33%;
     height: auto;
     z-index: 1;
 }
 
 .tour-extreme {
-    /* position: absolute; */
-    top: 41.39%;
+    position: absolute;
+    top: 61.39%;
     width: 29.58%;
     height: auto;
     z-index: 1;

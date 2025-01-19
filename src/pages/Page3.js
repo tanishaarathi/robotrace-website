@@ -3,13 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Page3.css';
 
 // Page3
-import LBtitle from '../assets/page3/Leaderboard_Title_DYNAMIC_TEXT@.png'
-import LBtext from '../assets/page3/Leaderboard_Text_DYNAMIC_TEXT@.png'
-import ViewLB from '../assets/page3/View_Leaderboards_DYNAMIC_TEXT@.png'
-import LBbutton from '../assets/page3/Submit-button@.png'
+
 import LBimg from '../assets/page3/Leaderboard_Mockup@.png'
 import Separator from '../assets/page3/Diagonal-Seperator@.png'
-import NewsAndUpdate from '../assets/page3/NEWS-and-UPDATES_DYNAMIC_TEXT@.png'
 import UpdateImg1 from '../assets/page3/Post-Art@.png'
 import UpdateImg2 from '../assets/page3/Post2-Art@.png'
 import UpdateImg3 from '../assets/page3/Post3-Art@.png'
@@ -18,7 +14,7 @@ import UpdateImg3 from '../assets/page3/Post3-Art@.png'
 const Page3 = () => {
   return (
     <div className="container-fluid g-0 page3">
-        <div className='row g-0'>
+        {/* <div className='row g-0'>
             <div className='col-5 p-5 g-0 align-items-start'>
                 <p className='lb-title'>Leaderboard</p>
                 <p className='lb-text'>It's a race to the end, but which one will be the hero?</p>
@@ -33,7 +29,7 @@ const Page3 = () => {
                     className='img-fluid w-100'
                 /> 
             </div>
-        </div>
+        </div> */}
         <img
                 src={Separator}
                 alt='Separator image'

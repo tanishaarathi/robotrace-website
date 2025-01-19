@@ -34,9 +34,9 @@ const Page1 = () => {
             <img src={TwitterButton} alt='Twitter Button' className='twitter'/></a>
         <a href="https://www.youtube.com/@easleydunn" target="_blank" rel="noopener noreferrer">
             <img src={YoutubeButton} alt='Youtube Button' className='youtube'/></a>
-        <a href="http://easleydunnproductions.com/temp_index.html" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/robot.race.mobile" target="_blank" rel="noopener noreferrer">
             <img src={InstagramButton} alt='Instagram Button' className='instagram' /></a>
-        <a href="http://easleydunnproductions.com/temp_index.html" target="_blank" rel="noopener noreferrer">
+        <a href="https://discord.gg/A5TJ2nNn35" target="_blank" rel="noopener noreferrer">
             <img src={DiscordButton} alt='Discord Button' className='discord' /></a>
         
       </div>
@@ -60,12 +60,12 @@ const Page1 = () => {
         <p className='page1-dynamic-text'>Join in The Competition Now!</p>
         <div className='row d-flex justify-content-center align-items-center'>
         <div className="col-auto d-flex justify-content-center align-items-center">
-            <a href="https://apps.apple.com/ge/app/spurpunk-td/id1487386202#?platform=iphone" target="_blank" rel="noopener noreferrer">
+            <a href="https://apps.apple.com/ge/app/robot-race/id539184198#?platform=iphone" target="_blank" rel="noopener noreferrer">
                 <img src={AppStoreButton} alt="Apple Store Button" className="img-fluid appstore" />
             </a>
         </div>
         <div className="col-auto d-flex justify-content-center align-items-center">
-            <a href="https://play.google.com/store/apps/details?id=com.easleydunnproductions.spurpunk&hl=en_US&gl=US" target="_blank" rel="noopener noreferrer" >
+            <a href="https://play.google.com/store/apps/details?id=com.easleydunnproductions.robotrace&hl=en_US&gl=US" target="_blank" rel="noopener noreferrer" >
                 <img src={PlayStoreButton} alt="Google Playstore Button" className="img-fluid playstore" />
             </a>
         </div>
