@@ -34,7 +34,7 @@
     color: #e8e8e8;
     font-family: 'Mont-Regular';
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.6vw;
 }
 
 .rank-icon {
@@ -49,7 +49,7 @@
 }
 
 .author {
-    font-size: 0.6em;
+    font-size: 1vw;
 }
 
 .midSection {
@@ -75,6 +75,7 @@
     left: 30%;
     top: 16%;
     font-family: 'Mont-SemiBold';
+    font-size: 2.5vw;
     color: #1CC0DE;
     text-shadow: -0.3vw 0.15vw 0.1vw #3F1B45 ;
 }
@@ -86,7 +87,8 @@
     width: 42%;
     font-family: 'Mont-Regular';
     color: #1CC0DE;
-    font-size: 0.9rem;
+    font-size: 1.2vw;
+    white-space: nowrap;
 }
 
 .image-button {
@@ -94,11 +96,13 @@
     left: 56%;
     top: 62%;
     text-align: start;
+    width: fit-content;
+    height: auto;
 }
 
 .submit-button {
-    width: auto; 
-    height: 30%;
+    width: 100%; 
+    height: auto;
 }
 
 .button-text {
@@ -107,7 +111,7 @@
     left: 40%; 
     transform: translate(-50%, -50%); 
     color: white; 
-    font-size: 1.5rem; 
+    font-size: 1.7vw; 
     font-family: 'Mont-SemiBold';
     pointer-events: none; 
     text-shadow: -0.1vw 0.05vw 0.1vw #d8d8d8;
@@ -127,7 +131,7 @@
 .name-label {
     color: #e8e8e8; 
     font-family: 'Mont-Regular';
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     font-weight: bold;
     padding-right: 3.5%;
 }
@@ -157,7 +161,7 @@
 .email-label {
     color: #e8e8e8; 
     font-family: 'Mont-Regular';
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     font-weight: bold;
     padding-right: 2%;
 }
@@ -250,6 +254,11 @@
     position: absolute;
     left: 56.08%;
     top: 20%;
+}
+
+.app-store:hover , .play-store:hover {
+    box-shadow: 0 0 15px #e8e8e8;
+    border-radius: 14px;
 }
 
 .esrb-rating {

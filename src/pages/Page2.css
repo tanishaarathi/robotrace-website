@@ -8,14 +8,14 @@
 
 .headings {
     font-family: 'Mont-Regular';
-    font-size: 2.4rem;
+    font-size: 3vw;
     color: #e8e8e8;
     line-height: 1.2;
 }
 
 .content {
     font-family: 'Mont-Regular';
-    font-size: calc(1vh + 0.7rem);
+    font-size: 1.4vw;
     white-space: nowrap;
     color: #e8e8e8;
     line-height: 2;

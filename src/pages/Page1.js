@@ -5,8 +5,8 @@ import { motion, useInView } from 'framer-motion';
 import './Page1.css';
 
 // Page1
-import AppStoreButton from '../assets/page1/App-Store-Button@.png'
-import PlayStoreButton from '../assets/page1/Google-Play-Button@.png'
+import AppStoreButton from '../assets/page4/iOS-download-button-COPY@.png'
+import PlayStoreButton from '../assets/page4/Android-Download-Button-COPY@.png'
 import DiscordButton from '../assets/page1/Discord_normal@.png'
 import FacebookButton from '../assets/page1/Facebook_normal@.png'
 import TwitterButton from '../assets/page1/X_normal@.png'
@@ -34,22 +34,16 @@ const Page1 = () => {
             <img src={TwitterButton} alt='Twitter Button' className='twitter'/></a>
         <a href="https://www.youtube.com/@easleydunn" target="_blank" rel="noopener noreferrer">
             <img src={YoutubeButton} alt='Youtube Button' className='youtube'/></a>
-        <a href="http://easleydunnproductions.com/temp_index.html" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/robot.race.mobile" target="_blank" rel="noopener noreferrer">
             <img src={InstagramButton} alt='Instagram Button' className='instagram' /></a>
-        <a href="http://easleydunnproductions.com/temp_index.html" target="_blank" rel="noopener noreferrer">
+        <a href="https://discord.gg/A5TJ2nNn35" target="_blank" rel="noopener noreferrer">
             <img src={DiscordButton} alt='Discord Button' className='discord' /></a>
         
       </div>
       <img src={RRicon} alt='Robot Race Icon' className='img-fluid rr-icon' />
       
       <div className='wrapper d-flex justify-content-center align-items-center g-0'>
-        <video
-            src={Movie}
-            autoPlay
-            loop
-            muted
-            className="background-video"
-        ></video>
+        <video src={Movie} autoPlay loop muted playsInline className="background-video"/>
         <img
             src={RRtitle}
             alt='Robot Race Title'
@@ -66,29 +60,13 @@ const Page1 = () => {
         <p className='page1-dynamic-text'>Join in The Competition Now!</p>
         <div className='row d-flex justify-content-center align-items-center'>
         <div className="col-auto d-flex justify-content-center align-items-center">
-            <a
-                href="https://apps.apple.com/ge/app/spurpunk-td/id1487386202#?platform=iphone"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <img
-                    src={AppStoreButton}
-                    alt="Apple Store Button"
-                    className="img-fluid appstore"
-                />
+            <a href="https://apps.apple.com/ge/app/robot-race/id539184198#?platform=iphone" target="_blank" rel="noopener noreferrer">
+                <img src={AppStoreButton} alt="Apple Store Button" className="img-fluid appstore" />
             </a>
         </div>
         <div className="col-auto d-flex justify-content-center align-items-center">
-            <a
-                href="https://play.google.com/store/apps/details?id=com.easleydunnproductions.spurpunk&hl=en_US&gl=US"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <img
-                    src={PlayStoreButton}
-                    alt="Google Playstore Button"
-                    className="img-fluid playstore"
-                />
+            <a href="https://play.google.com/store/apps/details?id=com.easleydunnproductions.robotrace&hl=en_US&gl=US" target="_blank" rel="noopener noreferrer" >
+                <img src={PlayStoreButton} alt="Google Playstore Button" className="img-fluid playstore" />
             </a>
         </div>
         </div>
